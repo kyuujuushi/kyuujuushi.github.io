@@ -18,4 +18,6 @@ body {
 
 nav, div{
   background-color: var(--snow);
+  padding: auto;
+  margin: 12pt;
 }
