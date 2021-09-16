@@ -10,14 +10,21 @@
   --pink: #c3a6a6;
   --blue: #b8dfee;
   --cyan: #79A9B0;
+
+  /*
+    additional colors
+  */
+  --bb_pink: #E1D2D2;
+  --white:   #ffffff;
+
 }
 
 body {
-  background-color: var(--grey);
+  background-color: var(--bb_pink);
 }
 
 nav, div{
-  background-color: var(--snow);
+  background-color: var(--white);
   padding: auto;
   margin: 12pt;
 }
