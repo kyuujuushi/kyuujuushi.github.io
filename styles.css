@@ -21,12 +21,17 @@
 
 body {
   background-color: var(--bb_pink);
+  font-family: Oxygen, sans-serif;
 }
 
 nav, div{
   background-color: var(--white);
   padding: auto;
   margin: 12pt;
+}
+
+h1, h3{
+  font: Oxygen;
 }
 
 button{
