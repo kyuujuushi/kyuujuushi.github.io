@@ -28,3 +28,28 @@ nav, div{
   padding: auto;
   margin: 12pt;
 }
+
+button{
+  background-color: white;
+  color: black;
+  border: black;
+  border: none;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  border: white;
+  border-style: none;
+}
+
+button:disabled{
+  background-color: white;
+  color: grey;
+}
+
+button:disabled:hover{
+  background-color: white;
+  color: grey;
+  cursor: not-allowed;
+}
