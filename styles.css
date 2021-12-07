@@ -1,20 +1,14 @@
 :root {
   /*
   ---------------------------------------------------
-    Albino color palette link↴
-    https://www.color-hex.com/color-palette/50758
+    Screw that thing, Imma Do my own pallete
   ---------------------------------------------------
   */
-  --snow: #f2f2f2;
-  --grey: #c9c9c9;
-  --pink: #c3a6a6;
-  --blue: #b8dfee;
-  --cyan: #79A9B0;
-
-  /*
-    additional colors
-  */
+  --snow:    #f2f2f2;
+  --grey:    #c9c9c9;
+  --pink:    #c3a6a6;
   --bb_pink: #E1D2D2;
+  --maroon:   #8b5151;
   --white:   #ffffff;
 }
 
@@ -77,7 +71,7 @@ button{
 }
 
 button:hover{
-  background-color: black;
+  background-color: var(--maroon);
   color: white;
   border: white;
   border-style: none;
