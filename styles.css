@@ -15,6 +15,7 @@
 body {
   background-color: var(--bb_pink);
   font-family: Oxygen, sans-serif;
+  text-align: center;
 }
 
 nav{
@@ -30,6 +31,10 @@ nav{
   border-radius: 0.25rem/* 4px */;
   --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.left {
+  text-align: left; /* this legit just puts the text to the left. That's its purpose in life */
 }
 
 h1, h3{
@@ -56,7 +61,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 20%;
 }
 
 button{
