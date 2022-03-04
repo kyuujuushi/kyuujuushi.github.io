@@ -22,52 +22,59 @@
 // frame file names so I could just call upon them when I want to
 
 // these frames are of calm Zach
-const CALM = [
-    "./animation-test-files/frame_0000.png", 
-    "./animation-test-files/frame_0001.png", 
-    "./animation-test-files/frame_0002.png",
-    "./animation-test-files/frame_0003.png",
-    "./animation-test-files/frame_0004.png",
-    "./animation-test-files/frame_0005.png",
-    "./animation-test-files/frame_0006.png",
-    "./animation-test-files/frame_0007.png"
-]
+// const CALM = [
+//     "./animation-test-files/frame_0000.png", 
+//     "./animation-test-files/frame_0001.png", 
+//     "./animation-test-files/frame_0002.png",
+//     "./animation-test-files/frame_0003.png",
+//     "./animation-test-files/frame_0004.png",
+//     "./animation-test-files/frame_0005.png",
+//     "./animation-test-files/frame_0006.png",
+//     "./animation-test-files/frame_0007.png"
+// ]
 
 // these frames are of Zach realizing the bs
-const TRANSITION = [
-    "./animation-test-files/frame_0008.png",
-    "./animation-test-files/frame_0009.png",
-    "./animation-test-files/frame_0010.png",
-    "./animation-test-files/frame_0011.png",
-    "./animation-test-files/frame_0012.png",
-    "./animation-test-files/frame_0013.png",
-    "./animation-test-files/frame_0014.png",
-    "./animation-test-files/frame_0015.png"
-]
+// const TRANSITION = [
+//     "./animation-test-files/frame_0008.png",
+//     "./animation-test-files/frame_0009.png",
+//     "./animation-test-files/frame_0010.png",
+//     "./animation-test-files/frame_0011.png",
+//     "./animation-test-files/frame_0012.png",
+//     "./animation-test-files/frame_0013.png",
+//     "./animation-test-files/frame_0014.png",
+//     "./animation-test-files/frame_0015.png"
+// ]
 
 // these frames are of Zach being shocked at the bs 
-const SHOCKED = [
-    "./animation-test-files/frame_0016.png",
-    "./animation-test-files/frame_0017.png",
-    "./animation-test-files/frame_0018.png",
-    "./animation-test-files/frame_0019.png",
-    "./animation-test-files/frame_0020.png",
-    "./animation-test-files/frame_0021.png",
-    "./animation-test-files/frame_0022.png",
-    "./animation-test-files/frame_0023.png"
-]
+// const SHOCKED = [
+//     "./animation-test-files/frame_0016.png",
+//     "./animation-test-files/frame_0017.png",
+//     "./animation-test-files/frame_0018.png",
+//     "./animation-test-files/frame_0019.png",
+//     "./animation-test-files/frame_0020.png",
+//     "./animation-test-files/frame_0021.png",
+//     "./animation-test-files/frame_0022.png",
+//     "./animation-test-files/frame_0023.png"
+// ]
 
 // soon-to-be function of Zacchie being shocked
-let frame_count = 0;
-let image = document.getElementById("ani");
+// let frame_count = 0;
+// let image = document.getElementById("ani");
 
 // omg this kills the hoe wot???
-while (true) {
-    if (frame_count > SHOCKED.length){
-        frame_count = 0;
-    }
-    else{
-        image.setAttribute(src) = SHOCKED[frame_count];
-    }
-    frame_count++;
+// while (true) {
+//     if (frame_count > SHOCKED.length){
+//         frame_count = 0;
+//     }
+//     else{
+//         image.setAttribute(src) = SHOCKED[frame_count];
+//     }
+//     frame_count++;
+// }
+
+function active_animation(x) {
+    x.src = "/animation-test-files/hover/hover.webp";
+}
+function reset_animation(x) {
+    x.src = "/animation-test-files/idle/idle.webp";
 }
