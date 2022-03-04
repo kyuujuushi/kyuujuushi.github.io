@@ -64,6 +64,10 @@ img {
   width: 20%;
 }
 
+img#ani {
+  width: 70%;
+}
+
 button{
   background-color: var(--bb_pink);
   padding-top: 0.5rem;
