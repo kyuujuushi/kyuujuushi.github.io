@@ -64,6 +64,10 @@ p {
   padding-top: 0.5rem/* 8px */;
 }
 
+a {
+  color: palevioletred;
+}
+
 img {
   display: block;
   margin-left: auto;
