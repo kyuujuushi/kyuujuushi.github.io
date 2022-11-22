@@ -47,11 +47,13 @@ h1, h3{
 }
 
 h1 {
+  color: #8b5151;
   font-size: 3rem/* 48px */;
   line-height: 1;
 }
 
 h2 {
+  color: #8b5151;
   font-size: 1.125rem/* 18px */;
   line-height: 1.75rem/* 28px */;
 }
