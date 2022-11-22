@@ -16,12 +16,17 @@ body {
   background-color: var(--bb_pink);
   font-family: Oxygen, sans-serif;
   text-align: center;
+  position: absolute;
+  margin-left: 20%;
 }
 
 nav{
   background-color: var(--white);
   padding: auto;
-  margin: 12pt;
+}
+
+div {
+  max-width: 70%;
 }
 
 .card {
