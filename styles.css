@@ -11,99 +11,192 @@
   --maroon:   #8b5151;
   --white:   #ffffff;
 }
-
-body {
-  background-color: var(--bb_pink);
-  font-family: Oxygen, sans-serif;
-  text-align: center;
-  position: absolute;
-  margin-left: 20%;
+@media screen and (min-width: 1080px){
+  body {
+    background-color: var(--bb_pink);
+    font-family: Oxygen, sans-serif;
+    text-align: center;
+    position: absolute;
+    margin-left: 20%;
+  }
+  
+  nav{
+    background-color: var(--white);
+    padding: auto;
+  }
+  
+  div {
+    max-width: 70%;
+  }
+  
+  .card {
+    background-color: var(--white);
+    margin: 2rem/* 32px */;
+    padding: 1.5rem/* 24px */;
+    border-radius: 0.25rem/* 4px */;
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  
+  .left {
+    text-align: left; /* this legit just puts the text to the left. That's its purpose in life */
+  }
+  
+  h1, h3{
+    font: Oxygen;
+  }
+  
+  h1 {
+    color: #8b5151;
+    font-size: 3rem/* 48px */;
+    line-height: 1;
+  }
+  
+  h2 {
+    color: #8b5151;
+    font-size: 1.125rem/* 18px */;
+    line-height: 1.75rem/* 28px */;
+  }
+  
+  p {
+    --tw-text-opacity: 1;
+    color: rgba(31, 41, 55, var(--tw-text-opacity));
+    padding-top: 0.5rem/* 8px */;
+  }
+  
+  a {
+    color: palevioletred;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  
+  img#ani {
+    width: 70%;
+  }
+  
+  button{
+    background-color: var(--bb_pink);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem; 
+    text-align: center;
+    color: black;
+  }
+  
+  button:hover{
+    background-color: var(--maroon);
+    color: white;
+    border: white;
+    border-style: none;
+  }
+  
+  button:disabled{
+    background-color: white;
+    color: grey;
+  }
+  
+  button:disabled:hover{
+    background-color: white;
+    color: grey;
+    cursor: not-allowed;
+  }
 }
-
-nav{
-  background-color: var(--white);
-  padding: auto;
-}
-
-div {
-  max-width: 70%;
-}
-
-.card {
-  background-color: var(--white);
-  margin: 2rem/* 32px */;
-  padding: 1.5rem/* 24px */;
-  border-radius: 0.25rem/* 4px */;
-  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.left {
-  text-align: left; /* this legit just puts the text to the left. That's its purpose in life */
-}
-
-h1, h3{
-  font: Oxygen;
-}
-
-h1 {
-  color: #8b5151;
-  font-size: 3rem/* 48px */;
-  line-height: 1;
-}
-
-h2 {
-  color: #8b5151;
-  font-size: 1.125rem/* 18px */;
-  line-height: 1.75rem/* 28px */;
-}
-
-p {
-  --tw-text-opacity: 1;
-  color: rgba(31, 41, 55, var(--tw-text-opacity));
-  padding-top: 0.5rem/* 8px */;
-}
-
-a {
-  color: palevioletred;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
-img#ani {
-  width: 70%;
-}
-
-button{
-  background-color: var(--bb_pink);
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; 
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius: 0.25rem; 
-  text-align: center;
-  color: black;
-}
-
-button:hover{
-  background-color: var(--maroon);
-  color: white;
-  border: white;
-  border-style: none;
-}
-
-button:disabled{
-  background-color: white;
-  color: grey;
-}
-
-button:disabled:hover{
-  background-color: white;
-  color: grey;
-  cursor: not-allowed;
+@media screen and (max-width: 1079px) {
+  body {
+    background-color: var(--bb_pink);
+    font-family: Oxygen, sans-serif;
+    text-align: center;
+    position: absolute;
+  }
+  
+  nav{
+    background-color: var(--white);
+    padding: auto;
+  }
+  
+  .card {
+    background-color: var(--white);
+    margin: 2rem/* 32px */;
+    padding: 1.5rem/* 24px */;
+    border-radius: 0.25rem/* 4px */;
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  
+  .left {
+    text-align: left; /* this legit just puts the text to the left. That's its purpose in life */
+  }
+  
+  h1, h3{
+    font: Oxygen;
+  }
+  
+  h1 {
+    color: #8b5151;
+    font-size: 3rem/* 48px */;
+    line-height: 1;
+  }
+  
+  h2 {
+    color: #8b5151;
+    font-size: 1.125rem/* 18px */;
+    line-height: 1.75rem/* 28px */;
+  }
+  
+  p {
+    --tw-text-opacity: 1;
+    color: rgba(31, 41, 55, var(--tw-text-opacity));
+    padding-top: 0.5rem/* 8px */;
+  }
+  
+  a {
+    color: palevioletred;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  
+  img#ani {
+    width: 70%;
+  }
+  
+  button{
+    background-color: var(--bb_pink);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem; 
+    text-align: center;
+    color: black;
+  }
+  
+  button:hover{
+    background-color: var(--maroon);
+    color: white;
+    border: white;
+    border-style: none;
+  }
+  
+  button:disabled{
+    background-color: white;
+    color: grey;
+  }
+  
+  button:disabled:hover{
+    background-color: white;
+    color: grey;
+    cursor: not-allowed;
+  }
 }
