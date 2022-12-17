@@ -11,6 +11,7 @@
   --maroon:   #8b5151;
   --white:   #ffffff;
 }
+/*desktop*/
 @media screen and (min-width: 1080px){
   body {
     background-color: var(--bb_pink);
@@ -108,6 +109,7 @@
     cursor: not-allowed;
   }
 }
+/*mobile*/
 @media screen and (max-width: 1079px) {
   body {
     background-color: var(--bb_pink);
