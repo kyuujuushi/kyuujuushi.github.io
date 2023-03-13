@@ -73,8 +73,8 @@
 // }
 
 function active_animation(x) {
-    x.src = "/animation-test-files/hover/hover.webp";
+    x.src = "ani-test-1.png";
 }
 function reset_animation(x) {
-    x.src = "/animation-test-files/idle/idle.webp";
+    x.src = "ani-test-0.png";
 }
