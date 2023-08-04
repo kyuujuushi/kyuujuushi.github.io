@@ -4,17 +4,17 @@
     Screw that thing, Imma Do my own pallete
   ---------------------------------------------------
   */
-  --notwhite:  #dfdfde; /*body background*/
-  --notviolet: #a2798f; /*everything else*/
-  --notteal:   #8caba8; /*links*/
-  --palevamp:  #d7c6cf; /*background*/
-  --sadsky:    #88889c; /*disabled links*/
+  --divbackground: #ffffff; /*body background*/
+  --maincolor:     #FF8FB1; /*everything else*/
+  --links:         #7A4495; /*links*/
+  --background:    #FCE2DB; /*background*/
+  --disabled:      #B270A2; /*disabled links*/
 }
 
 body{
-  background-color: var(--palevamp);
-  color: var(--notviolet);
-  background-image: linear-gradient(#a2798f.1em, transparent .1em), linear-gradient(90deg,#a2798f .1em, transparent .1em);
+  background-color: var(--background);
+  color: var(--maincolor);
+  background-image: linear-gradient(var(--maincolor) .1em, transparent .1em), linear-gradient(90deg,var(--maincolor) .1em, transparent .1em);
   background-size: 3em 3em;
   background-attachment: fixed;
 }
@@ -25,12 +25,17 @@ button{
 */
 /*div needs to be media queried by aspect ratio*/
 div{
-  background-color: var(--notwhite);
-  border: #a2798f;
+  background-color: var(--divbackground);
+  border: var(--maincolor);
   border-width: .2em;
   border-style: solid;
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 1em;
   margin-bottom: 1em;
+  padding: 1.5em;
+}
+
+a{
+  color: var(--links);
 }
