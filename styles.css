@@ -18,10 +18,11 @@ body{
   background-size: 3em 3em;
   background-attachment: fixed;
 }
-
+/*
 button{
 
 }
+*/
 /*div needs to be media queried by aspect ratio*/
 div{
   background-color: var(--notwhite);
