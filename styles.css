@@ -24,17 +24,34 @@ button{
 }
 */
 /*div needs to be media queried by aspect ratio*/
-div{
-  background-color: var(--divbackground);
-  border: var(--maincolor);
-  border-width: .2em;
-  border-style: solid;
-  margin-right: 25%;
-  margin-left: 25%;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1.5em;
-  text-align: center;
+@media (max-aspect-ratio: 1/1) {
+  div{
+    background-color: var(--divbackground);
+    border: var(--maincolor);
+    border-width: .2em;
+    border-style: solid;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    text-align: center;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  div{
+    background-color: var(--divbackground);
+    border: var(--maincolor);
+    border-width: .2em;
+    border-style: solid;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    text-align: center;
+  }
 }
 
 .left {
