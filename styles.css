@@ -34,8 +34,20 @@ div{
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1.5em;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
 }
 
 a{
   color: var(--links);
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
