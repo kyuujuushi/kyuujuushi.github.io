@@ -62,6 +62,10 @@ a{
   color: var(--links);
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 img{
   display: block;
   margin-left: auto;
