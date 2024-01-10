@@ -68,3 +68,18 @@ img{
   margin-right: auto;
   width: 50%
 }
+
+button {
+  background-color: var(#ffffff);
+  color: var(--maincolor);
+  border-color: var(--maincolor);
+  border-style: solid;
+  padding: 0.5em;
+  transition: 0.3s;
+  opacity: 1.0;
+}
+
+button:hover {
+  padding-left: 1em;
+  padding-right: 1em;
+}
