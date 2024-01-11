@@ -87,3 +87,7 @@ button:hover {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+button:visited {
+  background-color: white;
+}
