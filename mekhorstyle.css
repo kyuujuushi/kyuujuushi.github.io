@@ -1,0 +1,67 @@
+:root {
+    --links: #48A8C9;
+    --text: #1C4350;
+}
+
+body {
+    background-color: var(--text);
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    div{
+      background-color: white;
+      color: var(--text);
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding: 1.5em;
+      text-align: left;
+      font-size: medium;
+    }
+  }
+  
+@media (min-aspect-ratio: 1/1) {
+    div{
+      background-color: white;
+      color: var(--text);
+      margin-right: 15%;
+      margin-left: 15%;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding: 1.5em;
+      text-align: left;
+    }
+}
+
+div.navbar {
+    text-align: center;
+}
+
+div.navbar > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+div.navbar > h1 {
+    font-size: 5em;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 0.5em;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--links);
+}
